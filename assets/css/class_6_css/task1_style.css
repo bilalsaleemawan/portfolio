@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     margin: 0 auto;
     margin-top: 200px;
     width: 300px;
@@ -11,6 +12,7 @@
     background-color: blue;
 
 }
-.container img{
+
+.container img {
     width: 300px;
 }
