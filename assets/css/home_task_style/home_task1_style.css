@@ -1,0 +1,94 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+
+/* 2) Header Background Color #007bff*/
+
+header {
+    background-color: #f0f0f0;
+}
+
+/* 3) Style all links (a element) within the nav to have no underline and  colors of #007bff */
+
+nav li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+/* 1) h1 element with font-size 24px and color #333 */
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* 4) Select all section elements and give them a margin of 20px and padding of 10px */
+
+section {
+    margin: 20px;
+    padding: 10px;
+}
+
+
+/* 5) Style the h2 element within the section with id="home" to have a color #ff6600. */
+
+#home h2 {
+    color: #ff6600;
+}
+
+
+/* 6) Select all li elements that are the  direct children of ul in the "about" section and give them a background color of #e0e0e0*/
+
+#about li {
+    background-color: #e0e0e0;
+}
+
+
+/* 7) Style the submit button in the form to have a background color of #28a745 and white text color */
+
+form button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+
+/* 8) Select the first paragraph of all section and make its font weight bold */
+
+section p {
+    font-weight: bold;
+}
+
+
+/* 9) Select all even li elements in the "about" section to have a background-color of #f8f9fa */
+
+#about li:nth-child(even) {
+
+    background-color: #f8f9fa;
+}
+
+
+/* 10) Use an attribute selector to style all input elements with type="emeail" to have a border color of #17a2b8*/
+
+input[type="email"] {
+    border: 1px solid #17a2b8;
+}
+
+
+/* 11) Use a pseudo-element to add a ">>" after each link in the naviagation. */
+
+nav a::after {
+    content: ">>";
+}
+
+/* 12) Style the placeholder text of all input elements to be italic and light gray.  */
+
+form input::placeholder {
+    font-style: italic;
+    color: lightgray;
+}
